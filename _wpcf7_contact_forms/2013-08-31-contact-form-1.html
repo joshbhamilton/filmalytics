@@ -1,0 +1,91 @@
+---
+layout: wpcf7_contact_form
+title: Contact form 1
+categories: []
+tags: []
+status: publish
+type: wpcf7_contact_form
+published: true
+meta:
+  _form: ! "<p>Your Name (required)<br />\n    [text* your-name] </p>\n\n<p>Your Email
+    (required)<br />\n    [email* your-email] </p>\n\n<p>Subject<br />\n    [text
+    your-subject] </p>\n\n<p>Your Message<br />\n    [textarea your-message] </p>\n\n<p>[submit
+    \"Send\"]</p>"
+  _mail: ! 'a:7:{s:7:"subject";s:14:"[your-subject]";s:6:"sender";s:26:"[your-name]
+    <[your-email]>";s:4:"body";s:212:"From: [your-name] <[your-email]>
+
+    Subject: [your-subject]
+
+
+    Message Body:
+
+    [your-message]
+
+
+    --
+
+    This e-mail was sent from a contact form on user&#039;s Blog! (http://ec2-54-227-15-44.compute-1.amazonaws.com/wordpress)";s:9:"recipient";s:16:"mail@example.com";s:18:"additional_headers";s:0:"";s:11:"attachments";s:0:"";s:8:"use_html";i:0;}'
+  _mail_2: ! 'a:8:{s:6:"active";b:0;s:7:"subject";s:14:"[your-subject]";s:6:"sender";s:26:"[your-name]
+    <[your-email]>";s:4:"body";s:154:"Message Body:
+
+    [your-message]
+
+
+    --
+
+    This e-mail was sent from a contact form on user&#039;s Blog! (http://ec2-54-227-15-44.compute-1.amazonaws.com/wordpress)";s:9:"recipient";s:12:"[your-email]";s:18:"additional_headers";s:0:"";s:11:"attachments";s:0:"";s:8:"use_html";i:0;}'
+  _messages: a:6:{s:12:"mail_sent_ok";s:43:"Your message was sent successfully. Thanks.";s:12:"mail_sent_ng";s:93:"Failed
+    to send your message. Please try later or contact the administrator by another
+    method.";s:16:"validation_error";s:74:"Validation errors occurred. Please confirm
+    the fields and submit it again.";s:4:"spam";s:93:"Failed to send your message.
+    Please try later or contact the administrator by another method.";s:12:"accept_terms";s:35:"Please
+    accept the terms to proceed.";s:16:"invalid_required";s:31:"Please fill the required
+    field.";}
+  _additional_settings: ''
+  _locale: en_US
+---
+<p>Your Name (required)<br />
+    [text* your-name] </p>
+
+<p>Your Email (required)<br />
+    [email* your-email] </p>
+
+<p>Subject<br />
+    [text your-subject] </p>
+
+<p>Your Message<br />
+    [textarea your-message] </p>
+
+<p>[submit "Send"]</p>
+[your-subject]
+[your-name] <[your-email]>
+From: [your-name] <[your-email]>
+Subject: [your-subject]
+
+Message Body:
+[your-message]
+
+--
+This e-mail was sent from a contact form on user&#039;s Blog! (http://ec2-54-227-15-44.compute-1.amazonaws.com/wordpress)
+mail@example.com
+
+
+0
+
+[your-subject]
+[your-name] <[your-email]>
+Message Body:
+[your-message]
+
+--
+This e-mail was sent from a contact form on user&#039;s Blog! (http://ec2-54-227-15-44.compute-1.amazonaws.com/wordpress)
+[your-email]
+
+
+0
+Your message was sent successfully. Thanks.
+Failed to send your message. Please try later or contact the administrator by another method.
+Validation errors occurred. Please confirm the fields and submit it again.
+Failed to send your message. Please try later or contact the administrator by another method.
+Please accept the terms to proceed.
+Please fill the required field.
